@@ -1,0 +1,70 @@
+.main_sidebar_section {
+  max-width: 100%;
+  max-height: 100vh;
+}
+.section_navbar {
+  /* width: 30rem; */
+  background: #1a1d1f;
+  height: 100vh;
+}
+
+.top_bar {
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+.top_bar .brand_Logo h3 {
+  font-size: 2.5rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  color: var(--bg-color);
+  cursor: pointer;
+}
+.top_bar .toggler .togglerBtn {
+  color: var(--bg-color);
+  cursor: pointer;
+}
+.menu {
+  width: 100%;
+}
+.route_link {
+  padding: 1rem 1.2rem;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.8rem;
+}
+.route_link .icon {
+  color: #6e7172;
+}
+.route_link .text {
+  color: #6e7172;
+}
+
+.route_link.active .text {
+  color: var(--bg-color);
+}
+.route_link.active .icon {
+  color: var(--bg-color);
+}
+main {
+  /* background: blue; */
+  width: 100%;
+  /* background: var(--main-bg-color); */
+  /* height: 100%; */
+}
+
+@media (max-width: 796px) {
+  .section_navbar {
+    position: absolute;
+  }
+  main {
+    width: calc(100% - 5rem);
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 470px) {
+  .section_navbar {
+    width: 100%;
+  }
+}

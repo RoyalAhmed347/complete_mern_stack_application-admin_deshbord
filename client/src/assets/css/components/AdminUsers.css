@@ -1,0 +1,44 @@
+.data_table {
+  width: 100%;
+  min-width: 100rem;
+  background-color: var(--bg-color);
+  border-radius: 1.5rem;
+  margin-top: 3rem;
+}
+
+.data_table thead tr th {
+  padding: 2rem 0;
+  color: black;
+  text-align: center;
+}
+.data_table tbody tr td {
+  color: black;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.edit_btn {
+  background: #d1f6de;
+  color: #3ddd75;
+}
+.edit_btn:hover {
+  border: none;
+  color: #d1f6de;
+  background-color: #3ddd75;
+}
+
+.main_modal {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 10000000;
+  top: 0;
+  left: 0;
+  background: #00000080;
+}
+
+@media (max-width: 796px) {
+}
+
+@media (max-width: 470px) {
+}

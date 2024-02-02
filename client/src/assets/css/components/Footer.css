@@ -1,0 +1,7 @@
+.footer_box{
+    color: var(--bg-color);
+    background-color: var(--main-color);
+    padding: 1.2rem;
+   
+    width: 100%;
+}

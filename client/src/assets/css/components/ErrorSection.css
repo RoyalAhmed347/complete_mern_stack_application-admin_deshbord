@@ -1,0 +1,39 @@
+.error_section {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  min-height: 86vh;
+  padding: 5rem 0;
+}
+.error_sub_heading {
+  font-size: 9.4rem;
+  color: var(--bg-color);
+  text-align: center;
+}
+h4 {
+  color: var(--bg-color);
+  text-align: center;
+  font-size: 4.5rem;
+}
+.error_text {
+  width: 70%;
+  text-align: center;
+}
+.row {
+  gap: 2rem;
+}
+
+@media (max-width: 796px) {
+    .error_text {
+        width: 80%;
+        text-align: center;
+      }
+  }
+  
+  @media (max-width: 470px) {
+    .error_text {
+        width: 90%;
+        text-align: center;
+      }
+  }
